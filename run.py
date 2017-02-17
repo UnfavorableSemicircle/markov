@@ -1,6 +1,6 @@
 # Run me!
 
 file = open('corpus')
-import markovgen
-markov = markovgen.Markov(file)
-markov.generate_markov_text()
+import markov
+markov_obj = markov.Markov(file)
+markov_obj.generate_markov_text()
